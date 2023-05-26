@@ -55,7 +55,7 @@ nav a:hover {
 
 #hamburger {
     color: white;
-    font-size: 1.7rem;
+    font-size: 1rem;
     position: absolute;
     right: 20px;
     top: 18px;
@@ -84,19 +84,20 @@ section {
     min-height: 100vh;
     background: linear-gradient(#4141413f, #4141413f), url('../images/index.jpg');
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 0% 20%;
 }
 
 .logo {
-    height: 100px;
+    height: 50px;
     border-radius: 50%;
 }
 
 .intro-content {
     color: var(--primary);
     position: absolute;
-    left: 8%;
+    left: 13%;
     top: 25%;
+    height: 10%;
 }
 
 .intro-content h1 {
